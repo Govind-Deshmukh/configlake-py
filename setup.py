@@ -8,10 +8,10 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="configlake",
-    version="1.0.0",
+    version="1.0.5",
     author="Govind Deshmukh",
     author_email="govind.ub47@gmail.com",
-    description="Python client library for Config Lake - Centralized configuration and secrets management",
+    description="Simple Python client for Config Lake - fetch and decrypt configurations and secrets",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Govind-Deshmukh/configlake-py",
@@ -39,7 +39,7 @@ setup(
     packages=find_packages(),
     python_requires=">=3.7",
     install_requires=requirements,
-    keywords="config configuration secrets management environment variables",
+    keywords="config configuration secrets management configlake configmanager secretmanager vault",
     include_package_data=True,
     zip_safe=False,
 )

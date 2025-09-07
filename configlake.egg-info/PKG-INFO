@@ -1,3 +1,34 @@
+Metadata-Version: 2.1
+Name: configlake
+Version: 1.0.5
+Summary: Simple Python client for Config Lake - fetch and decrypt configurations and secrets
+Home-page: https://github.com/Govind-Deshmukh/configlake-py
+Author: Govind Deshmukh
+Author-email: govind.ub47@gmail.com
+Project-URL: Bug Tracker, https://github.com/Govind-Deshmukh/configlake-py/issues
+Project-URL: Documentation, https://github.com/Govind-Deshmukh/configlake-py#readme
+Project-URL: Source Code, https://github.com/Govind-Deshmukh/configlake-py
+Keywords: config configuration secrets management configlake configmanager secretmanager vault
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
+Requires-Dist: cryptography>=3.4.0
+
 # Config Lake - Python Client
 
 Simple Python client library for Config Lake - fetch and decrypt configurations and secrets from your centralized config management server.
